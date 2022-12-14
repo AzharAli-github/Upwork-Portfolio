@@ -1,0 +1,597 @@
+/* Section One Styling Starts from here */
+
+.firstSec {
+    position: relative;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+
+svg {
+    position: absolute;
+    z-index: -1;
+    background-color: #14b789;
+    height: 100%;
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+.navbar {
+    background-color: #535da1;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.navbar ul li a:hover {
+    color: #14b789;
+    border-bottom: 1px solid #14b789;
+}
+
+.navbar ul li a:active {
+    color: #14b789;
+    border-bottom: 1px solid #14b789;
+}
+
+.scroll {
+    background-color: white;
+    color: black;
+}
+
+.scroll ul li a {
+    color: black;
+}
+
+.scroll ul li a:hover {
+    color: #14b789;
+    border-bottom: 1px solid #14b789;
+}
+
+.scroll ul li a:active {
+    color: #14b789;
+    border-bottom: 1px solid #14b789;
+}
+
+.firstSec .navButton a {
+    color: black;
+    text-decoration: none;
+}
+
+.firstSec .navButton:hover a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-outline-dark:hover {
+    color: white;
+}
+
+
+/* 
+*
+*
+*Content Inside Section one Styling 
+*
+*
+**/
+
+.firstSec .row .colOne {
+    margin-top: 40px;
+}
+
+.secOnecolOne {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.secOnecolOne img {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.secOnecolOne h1 {
+    margin-left: 20px;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.firstSec .row .colOne h2 {
+    background-color: white;
+    color: #14b789;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.firstSec .row .colOne button {
+    background-color: #535da1;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+.firstSec .row .colOne button:hover {
+    background-color: #14b789;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 25px 50px -12px;
+    transition: 0.4s ease-in-out;
+}
+
+.colTwo {
+    position: relative;
+}
+
+.secOnecolTwo {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.secOnecolTwo img {
+    width: 100%;
+    position: absolute;
+    min-width: 450px;
+}
+
+
+/*
+*
+* Second Section Starts From Here
+*
+*
+*/
+
+.secTwo {
+    padding: 60px 0px;
+}
+
+.secTwo .container .row .twoColOne img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.secTwo .container .row .twoColOne {
+    margin-top: 25px;
+}
+
+.secTwo .container .row .twoColtwo {
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.secTwo .container .row .twoColtwo div {
+    display: flex;
+    align-items: center;
+    background-color: #14b789;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.secTwo .container .row .twoColtwo div img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+}
+
+.secTwo .container .row .twoColtwo div h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.secTwo .container .row .twoColtwo h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.secTwo .container .row .twoColtwo p {
+    font-size: 17px;
+    color: #717275;
+}
+
+
+/* 
+*
+*
+Third Section Starts from Here
+*
+*
+* */
+
+.secThree {
+    padding: 50px 0px;
+    background-color: #f9f9f9;
+}
+
+.allTable {
+    border: 1px solid #e9eaeb;
+    border-radius: 18px;
+    padding: 20px 30px;
+}
+
+table tbody tr th {
+    font-size: 18px;
+    color: #14b789;
+}
+
+table tbody tr {
+    line-height: 37px;
+}
+
+.secThree strong {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.secThree p {
+    font-size: 20px;
+    color: #14b789;
+}
+
+
+/* 
+*
+*
+Section Four Starts From Here
+*
+*
+ */
+
+.secFour {
+    padding: 100px 0px;
+}
+
+.compRone {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.compRtwo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.compRtwo .col-4 {
+    height: 120px;
+}
+
+.compRtwo img {
+    max-width: 100px;
+}
+
+.compRtwo img:hover {
+    max-width: 130px;
+    transition: all ease 0.2s;
+}
+
+
+/* 
+*
+*
+Section Five Styling Starts From Here
+*
+*
+ */
+
+.secFive {
+    padding: 80px 0px;
+}
+
+.secFive .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14b789;
+    padding: 20px 0px;
+    border-radius: 30px;
+}
+
+.secFive .project img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.secFive .project h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.projectRowTwo {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+
+.projectRowTwo div {
+    max-width: 500px;
+}
+
+.projectRowTwo div h6 {
+    color: #14b789;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.projectRowTwo div h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.projectRowTwo div img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    transform: rotate(10deg) translateY(80px);
+    transition: all ease 0.5s;
+}
+
+.projectRowTwo .col-lg-4 .p-5 {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.projectRowTwo .col-lg-4 .p-5:hover {
+    border: 2px solid #14b789;
+    transition: all ease 0.5s;
+}
+
+.projectRowTwo .col-lg-4 .p-5:hover .prjctImage {
+    transform: none;
+}
+
+
+/* 
+*
+*
+Section Six Styling Starts From Here
+*
+*
+ */
+
+.secSix {
+    padding: 70px 0px;
+    background-color: #f9f9f9;
+}
+
+.secSix .sayHi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14b789;
+    padding: 20px 0px;
+    border-radius: 30px;
+}
+
+.secSix .sayHi img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.secSix .sayHi h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.secSix .allContact h6 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.secSix .allContact div {
+    padding: 10px 0px;
+}
+
+.secSix .allContact button {
+    background-color: transparent;
+    border: 1px solid #717275;
+    color: #717275;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.secSix .allContact p {
+    font-size: 18px;
+    color: #717275;
+}
+
+.secSix .allContact a i {
+    border: 1px solid #717275;
+    padding: 10px;
+    margin: 3px 5px;
+    color: black;
+    border-radius: 50%;
+}
+
+.secSix .allContact a i:hover {
+    color: white;
+    background-color: #14b789;
+    transition: all ease 0.5s;
+}
+
+.secSix .allIcons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allContact {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.secSix .allAbout h6 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.secSix .allAbout p {
+    font-size: 18px;
+    color: #717275;
+}
+
+.allAbout {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.secSix .allAbout div {
+    padding: 16px 0px;
+}
+
+.allInputs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.allInputs input {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #e9eaeb;
+    border-radius: 4px;
+}
+
+.allInputs input:hover {
+    border: 2px solid #14b789;
+    transition: all ease 0.5s;
+}
+
+.allMiniCards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.allMiniCards div {
+    background-color: #ffffff;
+    border: 2px solid #e9eaeb;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 4px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.allMiniCards div:hover {
+    border: 2px solid #14b789;
+}
+
+.allMiniCards div h6 {
+    font-weight: 400;
+    color: #717275;
+    font-size: 16px;
+    padding: 4px 0px;
+}
+
+.allMiniCards div a {
+    color: #14b789;
+}
+
+.form-floating {
+    background-color: #ffffff;
+}
+
+.form-floating textarea {
+    border: 2px solid #e9eaeb;
+}
+
+.form-floating textarea:hover {
+    border: 2px solid #14b789;
+}
+
+.form-floating label {
+    color: #717275;
+    font-size: 17px;
+}
+
+.contBtn {
+    float: right;
+    padding-top: 30px;
+}
+
+.contBtn button {
+    background-color: #14b789;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.contBtn button:hover {
+    background-color: #535da1;
+    transition: all ease 0.5s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/* 
+*
+*
+Footer Section Styling Starts From Here
+*
+*
+ */
+
+footer {
+    padding: 30px 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* 
+*
+*
+Responsiveness
+*
+*
+ */
+
+@media (max-width: 992px) {
+    .secOnecolTwo {
+        position: relative;
+    }
+    #sittingGuy {
+        display: none;
+    }
+}
